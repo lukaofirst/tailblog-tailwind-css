@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TailBlog</title>
+</head>
+<body class="font-body scrollbar-thin scrollbar-thumb-indigo-800 scrollbar-track-gray-300 scrollbar-thumb-rounded-full">
+    <!-- NAVBAR -->
+    <nav class="w-full bg-indigo-600 p-6">
+        <div class="flex justify-between max-w-screen-xl mx-auto">
+            <h2 class="flex items-center text-2xl">
+                <a href="#" class="no-underline text-white">TailBlog</a>
+            </h2>
+            <ul class="hidden md:flex list-none text-white items-center text-xl flex-wrap">
+                <li><a href="#" class="no-underline text-white p-6 hover:bg-indigo-900 transition ease-in duration-400">Home</a></li>
+                <li><a href="#" class="no-underline text-white p-6 hover:bg-indigo-900 transition ease-in duration-400">About</a></li>
+                <li><a href="#" class="no-underline text-white p-6 hover:bg-indigo-900 transition ease-in duration-400">Services</a></li>
+                <li><a href="#" class="no-underline text-white p-6 hover:bg-indigo-900 transition ease-in duration-400">Contact</a></li>
+            </ul>
+
+            <div class="navbar-mobile text-4xl text-white flex md:hidden items-center cursor-pointer">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION MAIN-HEADER -->
+    <section class="w-full bg-gray-300 py-32">
+        <div class="max-w-screen-xl mx-auto flex flex-wrap justify-around items-center">
+            <div class="w-full xl:w-1/2 px-6 mb-10 flex flex-wrap justify-center">
+                <h3 class="text-center xl:text-justify text-3xl text-indigo-600">This is a layout example using Tailwind CSS</h3>
+                <p class="text-gray-500 text-lg text-center pt-3 md:text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ducimus quae, magnam, adipisci maxime debitis minus porro molestias, fuga delectus sed. Porro accusantium, sint qui voluptas sit magni sunt enim a illum sed corrupti. Sint aut at enim illo iusto consequatur commodi recusandae ut maxime explicabo voluptate, error nesciunt vero.</p>
+                <button class="hover:bg-indigo-600 hover:text-white transition ease-in duration-300 border-2 border-indigo-600 focus:outline-none py-2 px-6 mt-3 cursor-pointer rounded-xl text-indigo-600 text-xl">Clique Aqui</button>
+            </div>
+            <div class="w-full lg:w-5/12 px-5 bg-cover text-white">
+                <img src="image/img1.jpg" alt="" class="rounded-3xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section class="w-full bg-indigo-600 p-10">
+        <div class="max-w-screen-xl mx-auto">
+            <h2 class="text-white text-3xl text-center pb-5">About</h2>
+            <p class="text-white text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, voluptas. Officiis dolores sequi qui ea corporis pariatur molestias ullam incidunt repellat, atque iusto inventore laboriosam temporibus quo obcaecati est beatae fugit tenetur recusandae laborum aut! Eum provident maiores dicta neque est rem dolorum sapiente consectetur. Cumque impedit eligendi a minus consectetur dignissimos, voluptatum asperiores possimus cum modi ducimus aspernatur ad, dolorum tempora dolorem ratione eum, laboriosam labore praesentium repellendus molestiae?</p>
+        </div>
+    </section>
+
+    <!-- SECTION SERVICES -->
+    <section class="w-full bg-gray-300 p-10">
+        <div class="max-w-screen-xl mx-auto">
+            <h2 class="text-indigo-600 text-3xl text-center pb-5">Service</h2>
+            <div class="boxes-wrapper flex flex-wrap justify-between items-center pb-3">
+                <div class="boxes-single py-8 px-4 m-3 w-full xl:w-1/4 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white  transition ease-in duration-400">
+                    <h4 class="text-center text-xl">Service 1</h4>
+                    <p class="text-justify py-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores, dolorem totam voluptas cum distinctio aperiam nam ad pariatur fugit dicta architecto, optio consequatur laborum veritatis natus assumenda quod quidem magni modi, sit odio quisquam? Quisquam possimus ad ducimus laboriosam!</p>
+                </div>
+                <div class="boxes-single py-8 px-4 m-3 w-full xl:w-1/4 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white  transition ease-in duration-400">
+                    <h4 class="text-center text-xl">Service 2</h4>
+                    <p class="text-justify py-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores, dolorem totam voluptas cum distinctio aperiam nam ad pariatur fugit dicta architecto, optio consequatur laborum veritatis natus assumenda quod quidem magni modi, sit odio quisquam? Quisquam possimus ad ducimus laboriosam!</p>
+                </div>
+                <div class="boxes-single py-8 px-4 m-3 w-full xl:w-1/4 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white  transition ease-in duration-400">
+                    <h4 class="text-center text-xl">Service 3</h4>
+                    <p class="text-justify py-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores, dolorem totam voluptas cum distinctio aperiam nam ad pariatur fugit dicta architecto, optio consequatur laborum veritatis natus assumenda quod quidem magni modi, sit odio quisquam? Quisquam possimus ad ducimus laboriosam!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="w-full bg-gray-500 p-10">
+        <div class="max-w-screen-xl mx-auto">
+            <p class="text-center text-white text-2xl">Developed by <a href="https://www.github.com/lukaofirst" target="_blank" class="text-white text-3xl bg-indigo-600  px-4 rounded-full">@lukaofirst</a></p>
+        </div>
+    </footer>
+</body>
+</html>
